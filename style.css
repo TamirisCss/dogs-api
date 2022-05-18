@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 0 1rem;
+}
+.container h1 {
+    margin-bottom: 1rem;
+}
+.container select {
+    margin-bottom: 1rem;
+}
+.img-container {
+  width: 350px;
+}
+
+.img-container img {
+  width: 100%;
+}
